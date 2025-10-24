@@ -1,0 +1,39 @@
+/* Navbar links hover underline */
+.nav-link {
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: currentColor;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Toggle button hover animation */
+.toggle-btn {
+  border: 1px solid currentColor;
+  padding: 0.3rem 0.9rem;
+  background-color: transparent;
+  transition: all 0.3s;
+}
+
+.toggle-btn:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Smooth navbar background transition */
+.navbar {
+  transition: background-color 0.4s, color 0.4s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
