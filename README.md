@@ -1,4 +1,5 @@
 🧑‍💻 Portfolio — Gopya Batte
+https://gopyaportfolio.netlify.app/
 
 This is my personal portfolio website built with React and Bootstrap.
 It showcases my skills, projects, and contact information in a modern, responsive design.
