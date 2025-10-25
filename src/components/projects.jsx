@@ -2,18 +2,18 @@ function Projects() {
   const projects = [
     {
       title: "Portfolio Website",
-      desc: "Built using React and Bootstrap for responsive design.",
+      desc: "Built using React, Vita and Bootstrap for responsive design.",
       img: "/images/portfolio.png", // add your image path here
     },
     {
-      title: "E-commerce App",
-      desc: "Full-stack MERN store with cart and authentication.",
-      img: "/images/portfolio.png",
+      title: "Weather Report App",
+      desc: "Searches and shows the weather report of the searched area",
+      img: "/images/weather.png",
     },
     {
-      title: "Task Manager",
-      desc: "A Kanban-style board for managing projects and tasks.",
-      img: "/images/portfolio.png",
+      title: "Recipe Finder",
+      desc: "Recipe Finder App — Fetch and display recipes using Spoonacular API.",
+      img: "/images/recipefinder.png",
     },
   ];
 
